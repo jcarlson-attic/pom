@@ -7,7 +7,7 @@
 	<version>1.0.1</version>
 	<description />
 	<url>
-		http://dev.methodknowledgy.com/docs/
+		http://dev.methodknowledgy.com/docs/${project.artifactId}/${project.version}
 	</url>
 	<scm>
 		<developerConnection>scm:svn:http://svn2.assembla.com/svn/mkdev/pom-parent/tags/pom-parent-1.0.1</developerConnection>
