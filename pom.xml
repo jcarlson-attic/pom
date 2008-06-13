@@ -46,7 +46,7 @@
 			<id>MKDev</id>
 			<name>MethodKnowledgy Development Website</name>
 			<url>
-				file://${env.HOME}/Sites/dev.methodknowledgy.com/docs/${project.artifactId}/${project.version}
+				file://${env.HOME}/Sites/dev.methodknowledgy.com/docs/
 			</url>
 		</site>
 	</distributionManagement>
