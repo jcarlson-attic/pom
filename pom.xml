@@ -1,19 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.methodknowledgy</groupId>
 	<artifactId>pom-parent</artifactId>
 	<packaging>pom</packaging>
 	<name>Methodknowledgy Project Parent</name>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<description />
 	<url>
 		http://dev.methodknowledgy.com/docs/${project.artifactId}/${project.version}
 	</url>
 	<scm>
-		<developerConnection>scm:svn:http://svn2.assembla.com/svn/mkdev/pom-parent/trunk</developerConnection>
+		<developerConnection>scm:svn:http://svn2.assembla.com/svn/mkdev/pom-parent/tags/pom-parent-1.0.0</developerConnection>
 	</scm>
 	<developers>
 		<developer>
