@@ -13,7 +13,7 @@
 		http://dev.methodknowledgy.com/docs/${project.artifactId}/${project.version}
 	</url>
 	<scm>
-		<developerConnection>scm:svn:http://svn2.assembla.com/svn/lifelog/LifeLog-Application/trunk</developerConnection>
+		<developerConnection>scm:svn:http://svn2.assembla.com/svn/mkdev/pom-parent/trunk</developerConnection>
 	</scm>
 	<developers>
 		<developer>
