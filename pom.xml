@@ -35,14 +35,6 @@
 			<url>http://repo1.maven.org/maven2</url>
 		</repository>
 	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>gwt-maven</id>
-			<url>
-				http://gwt-maven.googlecode.com/svn/trunk/mavenrepo
-			</url>
-		</pluginRepository>
-	</pluginRepositories>
 	<distributionManagement>
 		<repository>
 			<id>MK-Maven</id>
