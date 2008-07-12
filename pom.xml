@@ -75,6 +75,44 @@
 					<attach>false</attach>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+
+				<configuration>
+					<!-- 
+						Exclude Integration tests and inner classes. 
+						Note that inner classes are excluded by default, 
+						but must be explicitly excluded since we have 
+						modified the list of exclusions.
+					-->
+					<excludes>
+						<exclude>**/*$*,**/*ITest.java</exclude>
+					</excludes>
+				</configuration>
+				<executions>
+					<execution>
+						<id>integration</id>
+						<phase>integration-test</phase>
+						<goals>
+							<goal>test</goal>
+						</goals>
+						<configuration>
+							<!-- 
+								In this phase, we wish to exclude the standard 
+								exclusions only and include our integration 
+								tests instead of the standard includes. 
+							-->
+							<excludes>
+								<exclude>**/*$*</exclude>
+							</excludes>
+							<includes>
+								<include>**/*ITest.java</include>
+							</includes>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 		</plugins>
 		<extensions>
 			<extension>
